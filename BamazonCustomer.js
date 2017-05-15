@@ -33,7 +33,6 @@ function displayItems() {
     });
 }
 
-
 function selectID() {
     inquirer.prompt([{
         type: "input",
@@ -63,7 +62,6 @@ function selectID() {
         });
     });
 }
-
 
 function purchaseAgain() {
     inquirer.prompt([{
